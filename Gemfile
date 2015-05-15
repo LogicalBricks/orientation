@@ -37,6 +37,7 @@ group :development do
   gem 'bullet'
   gem 'quiet_assets'
   gem 'fontcustom'
+  gem 'capistrano-rails'
 end
 
 group :development, :test do
