@@ -10,7 +10,7 @@ set :ssh_options, {
 }
 
 set :log_level, :debug
-set :linked_files, %w{ .env config/database.yml config/secrets.yml}
+set :linked_files, %w{ .env config/database.yml }
 set :linked_dirs, %w{bin log tmp vendor/bundle public/system public/uploads}
 
 SSHKit.config.command_map[:rake]  = "bundle exec rake"
